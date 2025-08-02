@@ -1,0 +1,16 @@
+[project]
+name = "llm-emulator"
+version = "0.1.0"
+description = "Universal Services Emulator through LLMs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=3.4.3",
+    "litellm>=1.74.8",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.0",
+    "python-dotenv>=1.1.1",
+]
