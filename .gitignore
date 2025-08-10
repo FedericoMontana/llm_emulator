@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+.DS_Store
 
 # Virtual environments
 .venv
@@ -12,4 +13,5 @@ wheels/
 # Files
 .env
 *.ipynb
-main.py
+visual.py
+*.sh
