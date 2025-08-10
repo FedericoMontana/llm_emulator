@@ -15,7 +15,7 @@ The library orchestrates the following:
 
 #### Example #1 – Running a web server
 
-```bash
+```text
 % python ./main.py "host a web page" -i "the page will be a bank, keep it interactive with buttons can allow navigation"
 2025-08-10 01:50:48,656 - llm_emulator - [INFO] - Starting LLM Emulator for service 'host a web page'.
 2025-08-10 01:50:48,656 - llm_emulator.core.emulator - [INFO] - Discovering protocol details for 'host a web page'...
@@ -30,7 +30,7 @@ Connecting from a browser 127.0.0.1:80
 
 #### Example #2 – Running a SQL server
 
-```bash
+```text
 
 % python ./main.py "run a microsoft sql server" -i "do not require authentication"
 2025-08-10 01:30:58,084 - llm_emulator - [INFO] - Starting LLM Emulator for service 'run a microsoft sql server'.
@@ -42,7 +42,7 @@ Connecting from a browser 127.0.0.1:80
 ```
 Connecting from a terminal:
 
-```bash
+```text
 % nc 127.0.0.1 1433
 Microsoft SQL Server 2022 (RC1) - 15.0.2000.5 (X64)  
     Aug 22 2023 12:51:43  
@@ -97,7 +97,7 @@ Incorrect syntax near 'SLECT'.
 
 #### Example #3 – Running a remote Shell
 
-```bash
+```text
 % python ./main.py "open a remote shell" -i "do not require authentication"
 2025-08-10 01:42:10,615 - llm_emulator - [INFO] - Starting LLM Emulator for service 'open a remote shell'.
 2025-08-10 01:42:10,615 - llm_emulator.core.emulator - [INFO] - Discovering protocol details for 'open a remote shell'...
@@ -109,7 +109,7 @@ Incorrect syntax near 'SLECT'.
 
 Connecting from a terminal:
 
-```bash
+```text
 % nc 127.0.0.1 514 
 Welcome to Remote Shell Server  
 Connection established: Thu Jun 13 09:42:17 UTC 2024  
